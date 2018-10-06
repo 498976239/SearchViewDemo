@@ -12,7 +12,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
-    private SearchView mSearchView;
+    private SearchView mSearchView;//用来查找的控件
     private List<String> mList = new ArrayList();
     private MyAdapter adapter;
     private List<String> list = new ArrayList<>();
