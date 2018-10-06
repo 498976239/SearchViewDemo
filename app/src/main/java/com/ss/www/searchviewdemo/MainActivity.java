@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         initData();
         initView();
         mSearchView.setIconifiedByDefault(false);
-        mSearchView.setQueryHint("输入关键字");
+        mSearchView.setQueryHint("请输入关键字");
         mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         mList.add("幼儿园");
         mList.add("小学");
         mList.add("uuu");
-        mList.add("tyghujk");
         mList.add("太阳");
 
     }
